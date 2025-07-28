@@ -34,19 +34,9 @@ Diseñar un entorno de simulación vehicular donde los nodos móviles (vehículo
 - Se evidencia comunicación directa entre vehículos usando paquetes `LteMacPdu` (1 SDU, 0 CEs).
 - **Conclusión:** la comunicación D2D está presente, pero no es `Sidelink (PC5)` puro. Las estaciones base siguen gestionando y participando en la transmisión.
 
-## 📂 Estructura del repositorio
-```text
-.
-├── dualConnectivity/
-│   ├── omnetpp.ini                # Configuración modificada
-│   └── SingleCell_withSecondaryGnb.ned
-├── launch/
-│   └── heterogeneous.launchd.xml
-├── sumo/
-│   ├── mapa.net.xml
-│   └── rutas.rou.xml
-└── README.md
-````
+<img width="1633" height="731" alt="hete6" src="https://github.com/user-attachments/assets/136396e0-b7c5-4fdf-8cf4-bb75cf73d1a9" />
+
+
 ## 🧠 Créditos y referencias
 
 - Basado en [Simu5G](https://github.com/Simu5G/Simu5G)
