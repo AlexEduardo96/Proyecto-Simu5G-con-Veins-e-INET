@@ -35,16 +35,17 @@ Diseñar un entorno de simulación vehicular donde los nodos móviles (vehículo
 - **Conclusión:** la comunicación D2D está presente, pero no es `Sidelink (PC5)` puro. Las estaciones base siguen gestionando y participando en la transmisión.
 
 ## 📂 Estructura del repositorio
+```text
+.
 ├── dualConnectivity/
-│ ├── omnetpp.ini # Configuración modificada
-│ └── SingleCell_withSecondaryGnb.ned
+│   ├── omnetpp.ini                # Configuración modificada
+│   └── SingleCell_withSecondaryGnb.ned
 ├── launch/
-│ └── heterogeneous.launchd.xml
+│   └── heterogeneous.launchd.xml
 ├── sumo/
-│ └── mapa.net.xml
-│ └── rutas.rou.xml
-├── README.md
-
+│   ├── mapa.net.xml
+│   └── rutas.rou.xml
+└── README.md
 
 ## 🧠 Créditos y referencias
 
