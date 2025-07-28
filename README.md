@@ -46,7 +46,7 @@ Diseñar un entorno de simulación vehicular donde los nodos móviles (vehículo
 │   ├── mapa.net.xml
 │   └── rutas.rou.xml
 └── README.md
-
+````
 ## 🧠 Créditos y referencias
 
 - Basado en [Simu5G](https://github.com/Simu5G/Simu5G)
