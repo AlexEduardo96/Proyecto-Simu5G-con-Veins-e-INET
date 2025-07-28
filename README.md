@@ -35,4 +35,24 @@ Diseñar un entorno de simulación vehicular donde los nodos móviles (vehículo
 - **Conclusión:** la comunicación D2D está presente, pero no es `Sidelink (PC5)` puro. Las estaciones base siguen gestionando y participando en la transmisión.
 
 ## 📂 Estructura del repositorio
+├── dualConnectivity/
+│ ├── omnetpp.ini # Configuración modificada
+│ └── SingleCell_withSecondaryGnb.ned
+├── launch/
+│ └── heterogeneous.launchd.xml
+├── sumo/
+│ └── mapa.net.xml
+│ └── rutas.rou.xml
+├── README.md
+
+
+## 🧠 Créditos y referencias
+
+- Basado en [Simu5G](https://github.com/Simu5G/Simu5G)
+- Simulación de movilidad mediante [SUMO](https://www.eclipse.org/sumo/)
+- Interfaz de integración a través de [Veins](https://veins.car2x.org/)
+
+---
+
+> 💬 Para más detalles sobre cómo ejecutar la simulación, analizar eventos y adaptar nuevos escenarios, revisa la documentación incluida en el repositorio.
 
