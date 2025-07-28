@@ -1,0 +1,15 @@
+<launch>
+  <copy file="heterogeneous.net.xml"/>
+  <copy file="heterogeneous.rou.xml"/>
+  <copy file="heterogeneous.sumocfg" type="config"/>
+  <copy file="gui-settings.xml"/>
+  
+  <server>
+    <sumo-gui>
+      <config>
+        <file value="heterogeneous.sumocfg"/>
+        <time value="1000"/>
+      </config>
+    </sumo-gui>
+  </server>
+</launch>
